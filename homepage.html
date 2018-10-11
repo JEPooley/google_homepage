@@ -4,33 +4,49 @@
     <title>
         Google
     </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="">Gmail</a></li>
-            <li><a href="">Images</a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+        <div>
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#" id="list_icon"></a></li>
+                <li><a href="#" id="alarm_icon"></a></li>
+                <li><a href="#" id="user_icon"></a></li>
         </ul>
+       </div>
     </nav>
 
-    <div>
-        <img alt="Google" >
-        <div>
-            <input type="text" name="search_bar">
-            <div>
-                <span></span>
+    <main>
+        <div class="search_and_logo">
+            <img href="images/logo.svg" alt="Google" id="logo">
+            <div id="search">
+                <input type="text" name="search_bar">
+                <div class="centre">
+                    <span></span>
+                </div>
+            </div>
+            <div id="search_buttons">
+                <button >Google Search</button>
+                <button>I'm Feeling Lucky</button>
             </div>
         </div>
-        <div>
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
-        </div>
-    </div>
+    </main>
 
     <footer>
+        <div>
+            United Kingdom
+        </div>
+        <div>
+            <a href="">Advertising</a>
+            <a href="">Business</a>
+            <a href="">About</a>
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Settings</a>
+        </div>
     </footer>
 </body>
 
