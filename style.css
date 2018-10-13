@@ -1,3 +1,52 @@
+
+a{
+    text-decoration: none;
+    font-size: small;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #757575 !important;
+}
+
+a:visited { 
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin: 0;
+}
+
+button{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #757575;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    padding: 0 16px;
+    height: 36px;
+    margin: 29px 5px;
+}
+
+button:hover{
+    color: #222;
+    border-color: #b4b4b4;
+    box-shadow: 1px 1px 5px #d3d3d3;
+}
+
+input {
+    color: #222;
+    font: 16px arial,sans-serif;
+    outline: none;
+    width: 520px;
+    height: 34px;
+    border: none;
+    float: left;
+}
+
 nav{
     width: 100%;
     height: 62px;
@@ -14,6 +63,54 @@ nav li{
     display: inline-block;
     margin: 0 3px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer_bar{
+    display:block;
+    width: 100%;
+    height: 20px;
+    font-family: arial,sans-serif;
+    font-size: small;
+    border-top: 1px solid #e9e9e9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f2f2f2;
+}
+
+.footer_bar span{
+    padding-left: 27px;
+    color: rgba(0,0,0,.54);
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.footer_bar a{
+    color: #666;
+    font-size: small;
+    vertical-align: middle;
+    padding-left: 27px;
+}
+
+.footer_bar .fright{
+    padding-left: 0;
+    padding-right: 27px;
+    float: right;
+}
+
+main{
+    text-align: center;
+}
+
+
+.search_and_logo{
+    display: inline-block;
+    margin-top: 130px;
 }
 
 #list_icon{
@@ -38,11 +135,27 @@ nav li{
     opacity: .55;
 }
 
-main{
-    text-align: center;
+#logo{
+    margin-bottom: 20px;
 }
 
-.search_and_logo{
-    display: inline-block;
-    margin-top: 200px;
+#search{
+    width: 550px;
+    height: 34px;
+    border: 1px solid #e4e4e4;
+    padding: 5px 9px 6px 16px;
+    box-shadow: 0 1px 2px #d3d3d3;
+}
+
+#search:active{
+    box-shadow: 0 1px 3px #9c9c9c;
+}
+
+#search:hover{
+    box-shadow: 0 1px 3px #9c9c9c;
+}
+
+#voice{
+    width: 24px;
+    margin: 6px 0;
 }
